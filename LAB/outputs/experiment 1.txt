@@ -1,0 +1,2 @@
+Average scores: [86.6 87.2 83.4 88.2]
+Subject with highest average score: History
