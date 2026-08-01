@@ -1,0 +1,122 @@
+﻿--- Raw Data ---
+  Employee_Name   Department   Salary   Join_Date
+0        Alice            HR  50000.0  2022-01-15
+1           Bob  Engineering  85000.0  2021-06-20
+2       Charlie           HR      NaN  2023-03-11
+3         Diana  Engineering  92000.0  2020-11-01
+4          Evan    Marketing  60000.0  2024-02-28 
+
+--- Preprocessed Data ---
+  Employee_Name   Department   Salary  Join_Date  Years_of_Service
+0         Alice           HR  50000.0 2022-01-15                 4
+1           Bob  Engineering  85000.0 2021-06-20                 5
+2       Charlie           HR  72500.0 2023-03-11                 3
+3         Diana  Engineering  92000.0 2020-11-01                 6
+4          Evan    Marketing  60000.0 2024-02-28                 2 
+
+--- Aggregated Summary ---
+    Department  Avg_Salary  Total_Employees
+0  Engineering     88500.0                2
+1           HR     61250.0                2
+2    Marketing     60000.0                1 
+
+Plot saved successfully as 'salary_analysis_plot.png'
+--- 1. Creating Sample DataFrame ---
+Initial DataFrame:
+     Name  Age  Student
+0    John   20     True
+1    Emma   19     True
+2    Liam   21    False
+3  Olivia   18     True
+
+--- 2. Adding Row to DataFrame ---
+DataFrame after adding row:
+     Name  Age  Student
+0    John   20     True
+1    Emma   19     True
+2    Liam   21    False
+3  Olivia   18     True
+4  Sophia   22    False
+==================================================
+             DATA ANALYSIS WITH SCIPY            
+==================================================
+
+1. Measures of Central Tendency Using SciPy:
+Dataset: [10, 20, 30, 40, 50]
+Mean: 30.0
+Median: 30.0
+Mode: ModeResult(mode=np.int64(10), count=np.int64(1))
+
+2. Probability Distribution Analysis Using SciPy:
+Cumulative Probability P(X <= 85) for Mean=70, StdDev=10: 0.9331927987311419
+
+3. Hypothesis Testing:
+Sample Data: [22, 25, 19, 24, 28, 30]
+T-Statistic: -0.2049800154226962
+P-Value: 0.8456711339658732
+
+4. Correlation Analysis:
+X: [1, 2, 3, 4, 5]
+Y: [2, 4, 6, 8, 10]
+Pearson Correlation Coefficient: 1.0
+P-Value: 0.0
+
+5. Linear Algebra Operations:
+Matrix A: [[3, 2], [1, 2]]
+Vector B: [5, 5]
+Solution [x, y]: [0.  2.5]
+
+6. Optimization Using SciPy:
+Objective function: f(x) = x^2 + 4
+Initial guess x0 = 5
+Optimal value of x: [-2.62955131e-08]
+Minimum function value: 4.000000000000001
+==================================================
+       MACHINE LEARNING WITH SCIKIT-LEARN         
+==================================================
+
+1. Supervised Learning - Logistic Regression Algorithm:
+Accuracy: 1.0
+
+Detailed Classification Report:
+              precision    recall  f1-score   support
+
+      setosa       1.00      1.00      1.00        19
+  versicolor       1.00      1.00      1.00        13
+   virginica       1.00      1.00      1.00        13
+
+    accuracy                           1.00        45
+   macro avg       1.00      1.00      1.00        45
+weighted avg       1.00      1.00      1.00        45
+
+
+2. Unsupervised Learning - KMeans Clustering Algorithm:
+Cluster Labels:
+[1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 0 2 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2 2 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 0 2 0 0 0 0 2 0 0 0 0
+ 0 0 2 2 0 0 0 0 2 0 2 0 2 0 0 2 2 0 0 0 0 0 2 0 0 0 0 2 0 0 0 2 0 0 0 2 0
+ 0 2]
+=========================================================================
+          CO2-AT2 ASSIGNMENT: EXECUTING ALL PROGRAM SETS                 
+=========================================================================
+
+
+>>> RUNNING SET 1: DATA PREPROCESSING & VISUALIZATION <<<
+
+
+
+>>> RUNNING SET 2: PANDAS DATAFRAME OPERATIONS <<<
+
+
+
+>>> RUNNING SET 3: DATA ANALYSIS WITH SCIPY <<<
+
+
+
+>>> RUNNING SET 4: MACHINE LEARNING WITH SCIKIT-LEARN <<<
+
+
+=========================================================================
+                  ALL SETS EXECUTED SUCCESSFULLY                         
+=========================================================================
