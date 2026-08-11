@@ -1,0 +1,243 @@
+
+======================================================================
+  Q1: Employee Dataset – Complete Summary
+======================================================================
+
+--- 1. Number of Rows and Columns ---
+  Rows    : 200
+  Columns : 10
+
+--- 2. Column Data Types ---
+EmployeeID            int64
+Name                 object
+Age                 float64
+Department           object
+Salary              float64
+YearsExperience       int64
+PerformanceScore    float64
+Gender               object
+HoursPerWeek        float64
+Training               bool
+
+--- 3. Missing Values ---
+                  Missing Count  Missing %
+Age                          10        5.0
+Salary                       10        5.0
+PerformanceScore             10        5.0
+HoursPerWeek                 10        5.0
+
+--- 4. Statistical Summary (Numerical Columns) ---
+       EmployeeID     Age    Salary  YearsExperience  PerformanceScore  HoursPerWeek
+count      200.00  190.00    190.00           200.00            190.00        190.00
+mean      1100.50   40.15  56312.01            16.26              2.94         45.85
+std         57.88   11.27  15085.29            10.30              1.40          6.95
+min       1001.00   22.00  18216.03             0.00              1.00         35.00
+25%       1050.75   30.00  47845.68             7.00              2.00         40.00
+50%       1100.50   41.00  55895.54            15.00              3.00         45.00
+75%       1150.25   49.00  67770.85            25.00              4.00         51.00
+max       1200.00   59.00  90612.13            34.00              5.00         59.00
+
+--- 5. Statistical Summary (Categorical Columns) ---
+              Name Department Gender
+count          200        200    200
+unique         200          5      2
+top     Employee_1         HR   Male
+freq             1         44    111
+  [Saved] outputs/Q1_employee_summary.png
+  [Saved] outputs/Q1_employee_summary_report.txt
+
+======================================================================
+  Q2: Student Grades – Frequency Distribution & Bar Chart
+======================================================================
+
+--- Frequency Distribution Table ---
+Grade  Frequency  Relative Frequency (%)  Cumulative Frequency
+   A+         16                    5.33                    16
+    A         32                   10.67                    48
+   A-         30                   10.00                    78
+   B+         32                   10.67                   110
+    B         40                   13.33                   150
+   B-         25                    8.33                   175
+   C+         31                   10.33                   206
+    C         44                   14.67                   250
+   C-         22                    7.33                   272
+    D         13                    4.33                   285
+    F         15                    5.00                   300
+  [Saved] outputs/Q2_grade_frequency.png
+
+======================================================================
+  Q3: House Prices – Histogram & Normality Analysis
+======================================================================
+
+--- House Price Statistics ---
+  Mean      : 22.53
+  Median    : 21.20
+  Std Dev   : 9.20
+  Skewness  : 1.1081
+  Kurtosis  : 1.4952
+
+--- Normality Tests ---
+  Shapiro-Wilk  : stat=0.9172, p=0.000000
+  KS Test       : p=0.000000
+
+  Distribution: Right (Positively) Skewed
+  [Saved] outputs/Q3_house_prices.png
+
+======================================================================
+  Q4: Salary Data – Box Plot & Outlier Identification
+======================================================================
+
+--- Salary Statistics ---
+  Mean   : 146,421.09
+  Median : 113,349.49
+  Q1     : 74,125.71
+  Q3     : 173,151.96
+  IQR    : 99,026.25
+  Lower Fence : -74,413.67
+  Upper Fence : 321,691.33
+
+--- Outliers Detected ---
+  Count  : 41
+  Values : [np.float64(324110.11), np.float64(330932.72), np.float64(336008.65), np.float64(336597.78), np.float64(337658.18), np.float64(338488.84), np.float64(341007.13), np.float64(341263.96), np.float64(343916.26), np.float64(345594.45), np.float64(348218.83), np.float64(350215.36), np.float64(351354.9), np.float64(351370.07), np.float64(352350.67), np.float64(359944.54), np.float64(360356.79), np.float64(361871.63), np.float64(362851.9), np.float64(364152.55), np.float64(365110.05), np.float64(369703.54), np.float64(371609.13), np.float64(371657.97), np.float64(375054.8), np.float64(376474.25), np.float64(378046.81), np.float64(382363.67), np.float64(382494.82), np.float64(384317.27), np.float64(389872.24), np.float64(391720.98), np.float64(392224.04), np.float64(393946.79), np.float64(396429.3), np.float64(416658.79), np.float64(423360.24), np.float64(465550.74), np.float64(750000.0), np.float64(900000.0), np.float64(1200000.0)]
+  [Saved] outputs/Q4_salary_boxplot.png
+
+======================================================================
+  Q5: Student Marks – IQR Outlier Detection
+======================================================================
+
+--- IQR Outlier Detection Results ---
+
+  Math:
+    Q1=57.67, Q3=72.50, IQR=14.83
+    Fence: [35.44, 94.74]
+    Outliers (10): [np.float64(2.0), np.float64(3.0), np.float64(5.0), np.float64(8.0), np.float64(97.0), np.float64(98.0), np.float64(99.0), np.float64(100.0), np.float64(101.0), np.float64(102.0)]
+
+  Science:
+    Q1=63.27, Q3=77.28, IQR=14.00
+    Fence: [42.27, 98.28]
+    Outliers (8): [np.float64(1.0), np.float64(4.0), np.float64(6.0), np.float64(9.0), np.float64(99.0), np.float64(100.0), np.float64(103.0), np.float64(105.0)]
+
+  English:
+    Q1=47.12, Q3=69.55, IQR=22.42
+    Fence: [13.49, 103.19]
+    Outliers (4): [np.float64(0.0), np.float64(3.0), np.float64(5.0), np.float64(7.0)]
+  [Saved] outputs/Q5_student_marks_IQR.png
+
+======================================================================
+  Q6: Sales Dataset – IQR Outlier Removal
+======================================================================
+
+--- IQR Parameters ---
+  Q1 = 4,062.42
+  Q3 = 5,850.65
+  IQR = 1,788.23
+  Lower Fence = 1,380.08
+  Upper Fence = 8,532.99
+
+--- Before Cleaning ---
+  Rows    : 250
+  Mean    : 8,373.71
+  Std Dev : 17,053.09
+
+--- After Cleaning ---
+  Rows    : 230
+  Removed : 20 outliers
+  Mean    : 4,924.16
+  Std Dev : 1,170.82
+
+  [Saved] outputs/sales_data_cleaned.csv (230 rows)
+
+--- First 10 Rows of Cleaned Dataset ---
+ SaleID  Product Region  SalesAmount  Units  Discount
+      1    Phone   West  5593.131142     59      0.35
+      2  Monitor  South  4192.266280     12      0.15
+      3    Phone   West  6692.968485     28      0.12
+      4   Laptop   East  4636.701688     64      0.33
+      5    Phone   West  5600.250327     80      0.27
+      6   Laptop   East  4791.440596     83      0.30
+      7   Tablet   East  3130.720618     53      0.34
+      8 Keyboard  North  5877.533184     33      0.17
+      9 Keyboard  South  4735.529862     85      0.20
+     10    Phone  North  4774.764681      1      0.21
+  [Saved] outputs/Q6_sales_outlier_removal.png
+
+======================================================================
+  Q7: Pollution Data – Histograms & Box Plots Before/After Outlier Removal
+======================================================================
+  PM2_5: 15 outliers removed (185 remain)
+  NO2: 15 outliers removed (185 remain)
+  CO: 15 outliers removed (185 remain)
+  [Saved] outputs/Q7_before_after_outliers.png
+
+======================================================================
+  Q8: Titanic Dataset – Full Exploratory Data Analysis
+======================================================================
+
+--- 1. Dataset Information ---
+  Shape: 891 rows × 12 columns
+  Columns: ['PassengerId', 'Survived', 'Pclass', 'Name', 'Sex', 'Age', 'SibSp', 'Parch', 'Ticket', 'Fare', 'Cabin', 'Embarked']
+PassengerId      int64
+Survived         int64
+Pclass           int64
+Name            object
+Sex             object
+Age            float64
+SibSp            int64
+Parch            int64
+Ticket          object
+Fare           float64
+Cabin           object
+Embarked        object
+
+--- 2. Missing Values ---
+          Missing  Pct %
+Age           177  19.87
+Cabin         687  77.10
+Embarked        2   0.22
+
+--- 3. Descriptive Statistics ---
+       PassengerId  Survived  Pclass     Age   SibSp   Parch    Fare
+count       891.00    891.00  891.00  714.00  891.00  891.00  891.00
+mean        446.00      0.38    2.31   29.70    0.52    0.38   32.20
+std         257.35      0.49    0.84   14.53    1.10    0.81   49.69
+min           1.00      0.00    1.00    0.42    0.00    0.00    0.00
+25%         223.50      0.00    2.00   20.12    0.00    0.00    7.91
+50%         446.00      0.00    3.00   28.00    0.00    0.00   14.45
+75%         668.50      1.00    3.00   38.00    1.00    0.00   31.00
+max         891.00      1.00    3.00   80.00    8.00    6.00  512.33
+
+--- 6. Outlier Detection (IQR Method) ---
+  Age: fence=[-6.69, 64.81], outliers=11
+  Fare: fence=[-26.72, 65.63], outliers=116
+
+--- 7. Outlier Removal ---
+  Before: 891 rows
+  After : 765 rows
+  Removed: 126 rows
+
+  [Saved] outputs/titanic_cleaned.csv (765 rows)
+  [Saved] outputs/Q8_titanic_EDA.png
+
+======================================================================
+  ALL QUESTIONS COMPLETED!
+======================================================================
+
+  Outputs saved to: c:\LABS\FDS-LAB\Assesment Tool\Hands on descriptive statics\outputs
+
+  Files generated:
+    * Complete_Output_Report.txt  (9,734 bytes)
+    * Q1_employee_summary.png  (337,756 bytes)
+    * Q1_employee_summary_report.txt  (1,740 bytes)
+    * Q2_grade_frequency.png  (100,448 bytes)
+    * Q3_house_prices.png  (161,623 bytes)
+    * Q4_salary_boxplot.png  (120,513 bytes)
+    * Q5_student_marks_IQR.png  (140,933 bytes)
+    * Q6_sales_outlier_removal.png  (99,804 bytes)
+    * Q7_before_after_outliers.png  (182,491 bytes)
+    * Q8_titanic_EDA.png  (296,756 bytes)
+    * sales_data_cleaned.csv  (9,986 bytes)
+    * titanic_cleaned.csv  (53,181 bytes)
+
+======================================================================
+Execution Completed Successfully.
+======================================================================
