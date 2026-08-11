@@ -1,0 +1,6 @@
+ID,Model,Year,Engine,Cylinders,Transmission,Drive,Fuel_Efficiency,Make
+1,MX-5,2022,2.0,4,Manual,RWD,30.5,mazda
+2,A4,2022,2.0,4,Automatic,AWD,27.0,audi
+3,CX-5,2023,2.5,4,Automatic,AWD,28.0,mazda
+4,A6,2023,3.0,6,Automatic,AWD,25.0,audi
+5,Camry,2022,2.5,4,Automatic,FWD,32.0,toyota

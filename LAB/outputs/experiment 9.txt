@@ -1,0 +1,7 @@
+Average house price for each location:  Location
+Downtown    360000.0
+Suburban    615000.0
+Urban       750000.0
+Name: price, dtype: float64
+Number of houses with more than 4 bedrooms:  3
+Largest house size:  4500

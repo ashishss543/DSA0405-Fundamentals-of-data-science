@@ -1,0 +1,18 @@
+Monthly Sales Data:
+Jan: $12000
+Feb: $15000
+Mar: $14000
+Apr: $18000
+May: $22000
+Jun: $26000
+Jul: $24000
+Aug: $28000
+Sep: $31000
+Oct: $29000
+Nov: $35000
+Dec: $42000
+
+Plots generated:
+- outputs/experiment 11_line_plot.png
+- outputs/experiment 11_scatter_plot.png
+- outputs/experiment 11_bar_plot.png

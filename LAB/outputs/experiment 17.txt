@@ -1,0 +1,17 @@
+Top 10 Most Frequent Words in Customer Feedback:
+-----------------------------------
+Word               Frequency 
+-----------------------------------
+quality            4         
+product            3         
+great              3         
+customer           2         
+fast               2         
+delivery           2         
+excellent          2         
+support            2         
+amazing            1         
+outstanding        1         
+
+Plot generated:
+- outputs/experiment 17_word_freq_bar.png

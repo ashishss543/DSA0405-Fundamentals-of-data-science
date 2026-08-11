@@ -1,0 +1,10 @@
+Statistical Summary for Age and %Fat:
+=============================================
+Age   -> Mean: 46.44, Median: 51.00, Std Dev: 13.22
+%Fat  -> Mean: 28.78, Median: 30.70, Std Dev: 9.25
+=============================================
+
+Plots generated:
+- outputs/experiment 18_boxplots.png
+- outputs/experiment 18_scatter.png
+- outputs/experiment 18_qqplot.png

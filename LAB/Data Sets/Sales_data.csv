@@ -1,0 +1,9 @@
+Date,Month_sales,Product,Product_Name,Quantity Sold,Unit Price,Category,Price
+2023-01-15,January 2023,Laptop,Laptop,5,1200.00,Electronics,1200.00
+2023-02-20,February 2023,Phone,Phone,10,800.00,Electronics,800.00
+2023-03-10,March 2023,Tablet,Tablet,8,500.00,Electronics,500.00
+2023-04-05,April 2023,Monitor,Monitor,6,300.00,Electronics,300.00
+2023-10-12,October 2023,Keyboard,Keyboard,15,100.00,Accessories,100.00
+2023-11-08,November 2023,Mouse,Mouse,20,50.00,Accessories,50.00
+2023-11-22,November 2023,Headphones,Headphones,12,150.00,Accessories,150.00
+2023-12-18,December 2023,Desk,Desk,4,400.00,Furniture,400.00

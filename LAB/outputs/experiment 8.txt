@@ -1,0 +1,7 @@
+Five most sold products:  Product_Name
+Laptop     1200.0
+Phone       800.0
+Tablet      500.0
+Desk        400.0
+Monitor     300.0
+Name: Price, dtype: float64

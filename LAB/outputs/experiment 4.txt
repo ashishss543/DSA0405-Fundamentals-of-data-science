@@ -1,0 +1,2 @@
+Total sales for the year: 3500.0
+Percentage increase from Q1 to Q4: -72.0 %

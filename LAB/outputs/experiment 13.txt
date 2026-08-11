@@ -1,0 +1,54 @@
+Word Frequency Distribution:
+-----------------------------------
+Word               Frequency 
+-----------------------------------
+a                  6         
+data               4         
+science            4         
+and                4         
+scientific         3         
+is                 2         
+or                 2         
+knowledge          2         
+from               2         
+domain             2         
+research           2         
+an                 1         
+interdisciplinary  1         
+academic           1         
+field              1         
+that               1         
+uses               1         
+statistics         1         
+computing          1         
+methods            1         
+processing         1         
+visualization      1         
+algorithms         1         
+systems            1         
+to                 1         
+extract            1         
+extrapolate        1         
+insights           1         
+potentially        1         
+noisy              1         
+structured         1         
+unstructured       1         
+also               1         
+integrates         1         
+the                1         
+underlying         1         
+application        1         
+multifaceted       1         
+can                1         
+be                 1         
+described          1         
+as                 1         
+paradigm           1         
+method             1         
+discipline         1         
+workflow           1         
+profession         1         
+
+Total words: 69
+Unique words: 47

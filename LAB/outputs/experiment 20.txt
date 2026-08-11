@@ -1,0 +1,30 @@
+Customer Data with Spending Segments:
+ Customer ID  Age Gender  Total Spending Spending Segment
+         101   25 Female           150.0     Low Spenders
+         102   45   Male          1250.0  Medium Spenders
+         103   34 Female           750.0  Medium Spenders
+         104   22   Male            95.0     Low Spenders
+         105   58 Female          2100.0    High Spenders
+         106   31   Male           600.0  Medium Spenders
+         107   40 Female          1450.0    High Spenders
+         108   29   Male           280.0     Low Spenders
+         109   62   Male          1800.0    High Spenders
+         110   48 Female           890.0  Medium Spenders
+         111   35   Male           110.0     Low Spenders
+         112   52 Female          1650.0    High Spenders
+
+=============================================
+Average Age of Customers by Spending Segment:
+=============================================
+Spending Segment  Average Age
+    Low Spenders        27.75
+ Medium Spenders        39.50
+   High Spenders        53.00
+
+=================================================================
+Comprehensive Spending Segment Summary:
+=================================================================
+Spending Segment  Customer_Count  Average_Age  Average_Spending
+    Low Spenders               4        27.75            158.75
+ Medium Spenders               4        39.50            872.50
+   High Spenders               4        53.00           1750.00

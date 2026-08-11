@@ -1,0 +1,35 @@
+Sales Data with Total Sales Column:
+         Date     Product  Quantity Sold  Unit Price  Total Sales
+0  2023-01-15      Laptop              5      1200.0       6000.0
+1  2023-02-20       Phone             10       800.0       8000.0
+2  2023-03-10      Tablet              8       500.0       4000.0
+3  2023-04-05     Monitor              6       300.0       1800.0
+4  2023-10-12    Keyboard             15       100.0       1500.0
+5  2023-11-08       Mouse             20        50.0       1000.0
+6  2023-11-22  Headphones             12       150.0       1800.0
+7  2023-12-18        Desk              4       400.0       1600.0
+
+==================================================
+Total Sales & Profit by Product (20% Profit Margin):
+==================================================
+   Product  Total Sales  Profit
+      Desk       1600.0   320.0
+Headphones       1800.0   360.0
+  Keyboard       1500.0   300.0
+    Laptop       6000.0  1200.0
+   Monitor       1800.0   360.0
+     Mouse       1000.0   200.0
+     Phone       8000.0  1600.0
+    Tablet       4000.0   800.0
+
+Overall Total Profit: $5140.00
+
+==================================================
+Top 5 Most Profitable Products:
+==================================================
+   Product  Total Sales  Profit
+     Phone       8000.0  1600.0
+    Laptop       6000.0  1200.0
+    Tablet       4000.0   800.0
+Headphones       1800.0   360.0
+   Monitor       1800.0   360.0

@@ -1,0 +1,13 @@
+Frequency Distribution of Likes Among Posts:
+Likes
+150    3
+250    3
+320    1
+400    2
+500    1
+Name: count, dtype: int64
+
+Detailed Summary:
+Total Posts Analyzed: 10
+Mean Likes per Post: 282.00
+Most Frequent Likes Count (Mode): 150

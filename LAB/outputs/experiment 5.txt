@@ -1,0 +1,4 @@
+Average Fuel Efficiency of all cars: 28.5 MPG
+Average Fuel Efficiency of Mazda: 29.25 MPG
+Average Fuel Efficiency of Audi: 26.0 MPG
+Percentage Improvement from Mazda to Audi: 12.5 %

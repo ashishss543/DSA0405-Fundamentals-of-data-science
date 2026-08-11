@@ -1,0 +1,35 @@
+Word Frequency Distribution in Customer Reviews:
+-----------------------------------
+Word               Frequency 
+-----------------------------------
+the                3         
+product            3         
+is                 3         
+good               3         
+quality            2         
+excellent          2         
+and                2         
+really             2         
+delivery           2         
+works              1         
+well               1         
+very               1         
+highly             1         
+recommend          1         
+it                 1         
+to                 1         
+everyone           1         
+fast               1         
+customer           1         
+service            1         
+but                1         
+was                1         
+a                  1         
+bit                1         
+slow               1         
+worth              1         
+price              1         
+experience         1         
+
+Total Words in Reviews: 41
+Unique Words: 28

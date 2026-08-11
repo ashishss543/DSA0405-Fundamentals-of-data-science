@@ -1,0 +1,19 @@
+Frequency Distribution of Customer Ages:
+     Count  Percentage (%)
+Age                       
+25       3           25.00
+28       2           16.67
+34       3           25.00
+42       2           16.67
+50       2           16.67
+
+Descriptive Statistics of Customer Ages:
+count    12.00000
+mean     34.75000
+std       9.28464
+min      25.00000
+25%      27.25000
+50%      34.00000
+75%      42.00000
+max      50.00000
+Name: Age, dtype: float64
