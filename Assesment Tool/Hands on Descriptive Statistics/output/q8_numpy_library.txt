@@ -1,0 +1,3 @@
+Mean: 24.0
+Median: 20.0
+Mode: 20
