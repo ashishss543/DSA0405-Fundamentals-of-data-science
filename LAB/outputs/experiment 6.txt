@@ -1,2 +1,0 @@
-Total sales for the grocery store: 676.5
-Final amount after applying discount and tax: 718.44

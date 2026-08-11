@@ -1,1 +1,0 @@
-Average price of houses with more than 4 bedrooms: 660000.0
